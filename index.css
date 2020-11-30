@@ -1,0 +1,29 @@
+body,
+ul,
+li,
+a,
+div {
+  font-family: "Montserrat", sans-serif;
+}
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  /* color */
+  --color-red: #cf4520;
+  --color-black: #333333;
+  --color-white: #ffffff;
+}
+
+body {
+  background-color: #999999;
+}
