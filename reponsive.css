@@ -96,9 +96,30 @@
   .language {
     display: none;
   }
+  .main_text_box > p {
+    font-size: 70px;
+  }
+  .slider_navigation {
+    top: calc(100% - 60px);
+  }
 }
 
 @media (max-width: 767px) {
+  .all_menu_language {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+  }
+  .all_menu_language_text {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .slider_navigation {
+    top: calc(100% - 40px);
+  }
+  .main_text_box > p {
+    font-size: 50px;
+  }
   .all_menu > .all_menu_box > .all_menu_item > h2::before {
     width: 15px;
     height: 2px;

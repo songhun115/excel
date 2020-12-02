@@ -374,4 +374,23 @@ body.menu_open
   width: 70%;
   transition: 0.3s;
 }
+.main_text_box > p {
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--color-white);
+}
+.all_menu_language {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+}
+.all_menu_language_text {
+  font-size: 21px;
+  line-height: 60px;
+}
+
+.all_menu_language_text:first-child {
+  color: var(--color-red);
+}
+
 /* all_menu_btn End */
