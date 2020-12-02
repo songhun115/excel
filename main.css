@@ -19,4 +19,27 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
-
+.section_bg {
+  background: no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+.section_bg_img3 {
+  background-image: url("imgs/section3.png");
+}
+.section_bg_img4 {
+  background-image: url("imgs/section4.png");
+}
+.section_bg_img5 {
+  background-image: url("imgs/section5.png");
+}
+.section_bg_img6 {
+  position: relative;
+  background-color:white;
+}
+.section_bg_img6 > img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

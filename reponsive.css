@@ -1,4 +1,7 @@
 @media (max-width: 1600px) {
+  #fp-nav {
+    display: none;
+  }
   .menu_toggle_btn {
     background-color: transparent;
   }

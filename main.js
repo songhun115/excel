@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.nav_bar_item, .nav_right, .menu_toggle_btn').hover(function(){
+    $('.nav_bar_item, .nav_right, .menu_toggle_btn, .img_box > img').hover(function(){
       $('.nav_bar').addClass('on');
     }  , function(){
       $('.nav_bar').removeClass('on');
