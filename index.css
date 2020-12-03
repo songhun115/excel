@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #eeeeee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -83,8 +83,4 @@ a {
   --color-red: #cf4520;
   --color-black: #333333;
   --color-white: #ffffff;
-}
-
-body {
-  background-color: #999999;
 }

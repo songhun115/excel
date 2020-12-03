@@ -1,4 +1,11 @@
 @media (max-width: 1600px) {
+  .section_bg_img3 {
+    width: 55%;
+    transition: 0.3s;
+  }
+  .section_img_box > .section1_img_item > img {
+    width: 445px;
+  }
   #fp-nav {
     display: none;
   }
@@ -95,6 +102,27 @@
   }
 }
 @media (max-width: 1280px) {
+  .section_content {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .section_icon_list {
+    margin: 120px 25px 0 -25px;
+    width: 690px;
+  }
+  .section_bg_img3 {
+    width: 102%;
+    transition: 0.3s;
+  }
+  .section_img_box > .section1_img_item > img {
+    width: 32vw;
+  }
+  .section_text_box > .main_text_title {
+    font-size: 70px;
+    margin: 50px 0 20px 0;
+  }
+
   .nav_bar_list,
   .language {
     display: none;
@@ -108,6 +136,112 @@
 }
 
 @media (max-width: 767px) {
+  .section_contents_box {
+    flex-direction: column;
+    transition: 0.3s;
+  }
+  .section_bg_img3 {
+    background: url("imgs/section3.png") no-repeat bottom/cover;
+    background-size: 97% 20%;
+    object-fit: cover;
+  }
+  .section_img_box {
+    height: 400px;
+    width: 100%;
+    order: 0;
+    top: 10;
+    top: 10%;
+  }
+
+  .section_img_box > .section1_img1 {
+    left: 35%;
+    top: 15%;
+    transition: 0.3s;
+  }
+  .section_img_box > .section1_img2 {
+    top: 55%;
+    left: 55%;
+    transition: 0.3s;
+  }
+  .section_img_box > .section1_img_item > img {
+    width: 45vw;
+    transition: 0.3s;
+  }
+  .section_img_box {
+    width: 100%;
+    order: 0;
+  }
+  .section_text_box {
+    width: 100%;
+    padding-left: 0;
+    transition: 0.3s;
+  }
+  .section_intro {
+    font-size: 14px;
+  }
+  .section_content > .main_kr_text_title {
+    font-size: 32px;
+    margin: 20px 0 15px 0;
+    transition: 0.3s;
+  }
+  .section_icon_list {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.3s;
+  }
+  .section_intro::before {
+    width: 50px;
+    transition: 0.3s;
+  }
+  .section_icon_list > li {
+    width: 50%;
+    transition: 0.3s;
+    margin: 0;
+  }
+  .section_icon {
+    background-size: 27px;
+  }
+  .section_icon_list {
+    width: 100%;
+    transition: 0.3s;
+  }
+  .section_icon_list > li > a {
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.3s;
+  }
+  .section_icon_list > li > a > span {
+    margin: 10px 0 0 0;
+  }
+  .section_icon_list > li > a > p {
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: 0.3s;
+  }
+  .section_icon {
+    width: 57px;
+    height: 57px;
+    border-radius: 0 10px;
+    transition: 0.3s;
+  }
+  .section_text_box > .main_text_title {
+    margin: 15px 0 10px 0;
+    font-size: 37px;
+  }
+  .main_text_sbj {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section_text_btn {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    border-radius: 0 30px;
+  }
+
   .all_menu_language {
     position: absolute;
     top: 10px;
