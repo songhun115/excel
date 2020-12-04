@@ -86,6 +86,7 @@
   top: 85%;
   left: 65%;
 }
+
 .section_intro::before {
   display: inline-block;
   position: relative;
@@ -183,8 +184,192 @@
   font-weight: bold;
   font-size: 18px;
 }
+
 .section_content > .main_kr_text_title {
   margin: 40px 0 20px 0;
   font-size: 50px;
 }
-/* section 4 Start */
+/* section 4 End */
+
+/* section 5 Start */
+.section_bg_img4 > .section_content > .section_text_box2 > .section_intro,
+.section_bg_img4 > .section_content > .section_text_box2 > .main_kr_text_title,
+.section_bg_img4 > .section_content > .section_text_box2 > .main_text_sbj {
+  color: white;
+}
+
+.section_bg > .section_content {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.section_bg_img4 > .section_content > .section_text_box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.section_bg_img4 > .section_content > .section_text_box2 > .main_text_sbj {
+  text-align: center;
+}
+.section4_icon_list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.section4_icon_list > li {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: table;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 0 20px;
+}
+.section4_icon_list > li::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid rgba(254, 254, 254, 0.7);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.section4_icon_list > li > div {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 1;
+  text-align: center;
+}
+.section_bg_img4 > .section_content > .section_text_box2 > .main_kr_text_title {
+  margin: 40px 0 20px 0;
+  font-size: 50px;
+}
+.section_bg_img4 > .section_content > .section_text_box2 > .section_intro {
+  margin: 0;
+}
+.section4_icon_list > li > div > p {
+  font-size: 20px;
+}
+.li_title > span:first-child {
+  font-size: 80px;
+}
+.li_title > span:last-child {
+  font-size: 40px;
+}
+.section4_icon_list > li > div * {
+  color: white;
+}
+.section_bg_img5 > .section_text_box2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.section_bg_img5 > .section_text_box2 > .section_content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0 100px;
+  width: 680px;
+  padding: 80px 60px;
+  box-sizing: border-box;
+}
+/* section 5 End */
+
+#fullpage > .section1:last-child {
+  height: 937px;
+  background-color: #777777;
+}
+/* section6 Start */
+.section_bg_img6 > .section_text_box2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.section_bg_img6 > .section_text_box2 > .section_content {
+  width: 100%;
+}
+.nitice {
+  display: flex;
+  width: 100%;
+}
+.news {
+  width: 100%;
+}
+.notice_title {
+  width: 15%;
+}
+.notice_content {
+  width: 85%;
+  padding: 15px 0;
+  border-bottom: 1px solid #999999;
+  border-top: 1px solid #999999;
+}
+.notice_title > span:first-child {
+  font-size: 20px;
+}
+.notice_title > span:last-child {
+  display: flex;
+}
+.notice_content > span:first-child {
+  font-size: 30px;
+  position: relative;
+  color: var(--color-red);
+}
+.notice_content > span:last-child {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.notice_content > span:first-child::after {
+  clear: both;
+  content: "2020";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #777777;
+}
+.notice_bnt > i {
+  font-size: 20px;
+  color: #777777;
+}
+.notice_bnt:first-child > i {
+  padding: 20px 20px 20px 0;
+}
+.notice_bnt > i:first-child {
+  position: relative;
+}
+.notice_bnt:first-child > i::after {
+  position: absolute;
+  clear: both;
+  content: "";
+  background-color: #777777;
+  height: 15px;
+  width: 1px;
+  right: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nitice {
+  margin-bottom: 30px;
+}
+/* section6 Start */
+
+.section_footer {
+  height: 500px;
+}
+.section > .slide > .section_box * {
+  visibility: hidden;
+  transition: 0.3s;
+}
+.section.active > .slide > .section_box * {
+  visibility: visible;
+  transition: 0.3s;
+}
