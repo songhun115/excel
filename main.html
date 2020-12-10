@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
@@ -28,6 +31,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="reponsive.css">
     <title>엑셀세라퓨틱스</title>
+    
 </head>
 <body>  
     <!-- menu toggle btn -->
@@ -295,9 +299,9 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section section1" id="section1">
             <div class="slide" id="slide1">
-                <div class="section_box">
+                <div class="section_box section_box1">
                     <div class="section_contents_box">
                         <div class="section_img_box">
                             <span class="section1_img_item section1_img1">
@@ -307,17 +311,17 @@
                                 <img src="imgs/section2.png" alt="">
                             </span>
                         </div>
-                        <div class="section_text_box">
-                            <h2 class="section_intro">
+                        <div class="section_text_box text_box1">
+                            <h2 class="aa section_intro">
                                 PRODUCT
                             </h2>
-                            <p class="main_text_title">
+                            <p class="aa main_text_title">
                                 CellCor™
                             </p>
-                            <p class="main_text_sbj">
+                            <p class="aa main_text_sbj">
                                 CellCor™는 Serum-free Defined 와 Serum-free Chemically Defined로 구분됩니다. CellCor™는 효율적인 세포 증식을 위한 환경과 최상의 결과를 제공하며, 임상 시험까지 접근성을 높여줍니다. CellCor™와 함께하세요.
                             </p>
-                            <div class="section_text_btn">
+                            <div class="aa section_text_btn">
                                 MORE INFORMATION
                             </div>
                         </div>
@@ -325,21 +329,21 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section section2" id="section1">
             <div class="slide" id="slide1">
-                <div class="section_box ">
+                <div class="section_box section_box2 ">
                     <div class="section_text_box2">
-                        <div class="section_content">
-                            <h2 class="section_intro">
+                        <div class="section_content text_box2">
+                            <h2 class="aa section_intro">
                                 PIPELINE
                             </h2>
-                            <p class="main_kr_text_title">
+                            <p class="aa main_kr_text_title">
                                 글로벌 경쟁을 위한 혁신
                             </p>
-                            <p class="main_text_sbj">
+                            <p class="aa main_text_sbj">
                                 우리는 급성장하는 재생 의학 시장에서 글로벌 혁신을 촉진하기 위해 시너지 기술을 개발하고 있습니다.
                             </p>
-                            <ul class="section_icon_list">
+                            <ul class="aa section_icon_list">
                                 <li>
                                     <a href="#">
                                         <span class="section_icon icon1">
@@ -372,22 +376,22 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section section3" id="section1">
             <div class="slide" id="slide1">
                 <div class="section_box advantages_box">
                     <div class="section_bg section_bg_img4">
-                        <div class="section_content">
+                        <div class="section_content section_content3">
                             <div class="section_text_box2">
-                                <h2 class="section_intro">
+                                <h2 class="aa section_intro">
                                     ADVANTAGES
                                 </h2>
-                                <p class="main_kr_text_title">
+                                <p class="aa main_kr_text_title">
                                     품질, 속도, 효율
                                 </p>
-                                <p class="main_text_sbj">
+                                <p class="aa main_text_sbj">
                                     10년의 연구 끝에, 더 빠르고, 효율적인 무혈청 화학조성 배지를 개발하였습니다.<br>가격대비 효율이 좋은 최고의 제품을 보장합니다.
                                 </p>
-                                <ul class="section4_icon_list">
+                                <ul class="aa section4_icon_list">
                                     <li>
                                         <div>
                                             <span class="section4_icon section4_icon1">
@@ -443,7 +447,7 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section section4" id="section1">
             <div class="slide" id="slide1">
                 <div class="section_box">
                     <div class="section_bg section_bg_img5">
@@ -466,7 +470,7 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section section5" id="section1">
             <div class="slide" id="slide1">
                 <div class="section_box">
                     <div class="section_bg section_bg_img6">
@@ -503,14 +507,29 @@
         </div>
         <div class="section section_footer fp-auto-height" id="section1">
             <div class="slide" id="slide1">
-                <div class="section_box1">
-                    
+                <div class="footer_box1">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="imgs/footer_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer_info">
+                        <div><p>(08394)서울시 구로구 디지털로 242 한화비즈메트로 1차 13층</p></div>
+                        <ul>
+                            <li><a href="#">TEL (+82-2) 863-1331</a></li>
+                            <li><a href="#">FAX 02-863-0832</a></li>
+                            <li><a href="#">E-MAIL xcell@xcell.co.kr</a></li>
+                        </ul>
+                        <div><p>© 2020 Xcell Therapeutics Inc., Copyright</p></div>
+                        <div><p>개인정보처리방침</p></div>
+                        
+                    </div>         
                 </div>
             </div>
         </div>
       
     </div>
-
+    <script src="animation.js"></script>
     <script>
         var myFullpage = new fullpage('#fullpage', {
         navigation: true,
@@ -518,6 +537,7 @@
     });
     </script>
     <script src="main.js"></script>
+    
 </body>
 
 </html>
